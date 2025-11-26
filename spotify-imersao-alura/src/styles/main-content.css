@@ -34,7 +34,7 @@
   justify-content: center;
   width: 32px;
   height: 32px;
-  background: var(--bg-icon);
+  background: transparent;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -52,7 +52,7 @@
   width: 364px;
   height: 48px;
   margin-left: 8px;
-  background: var(--bg-icon);
+  background: transparent;
   border-radius: 40px;
   border: none;
 }
@@ -92,10 +92,10 @@
 .header__login .login {
   width: 80px;
   height: 40px;
-  background-color: #faf9f6;
+  background-color: #5e4075;
   font-size: 12px;
   font-weight: bold;
-  color: #a18cd1;
+  color: #faf9f6;
   border-radius: 40px;
   border: none;
   padding: 10px 20px;
@@ -108,8 +108,8 @@
   padding-top: 16px;
   margin: 10px;
   border-radius: 10px;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  box-shadow: 2px 2px 12px #b490ca;
+  background-color: #262424;
+  box-shadow: 2px 2px 12px #5e4075;
 }
 
 .playlist {
@@ -275,7 +275,7 @@
 }
 
 .artist-card {
-  background: #a18cd1;
+  background: #3b3c36;
   border-radius: 8px;
   -ms-flex: 1;
   flex: 1;
@@ -287,7 +287,7 @@
 }
 
 .artist-card:hover {
-  background-color: #b490ca;
+  background-color: #3b3c36;
 }
 
 .card-img {

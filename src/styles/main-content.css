@@ -34,7 +34,7 @@
   justify-content: center;
   width: 32px;
   height: 32px;
-  background: var(--bg-icon);
+  background: transparent;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -52,9 +52,9 @@
   width: 364px;
   height: 48px;
   margin-left: 8px;
-  background: var(--bg-icon);
+  background: transparent;
   border-radius: 500px;
-  border: 1px solid transparent;
+  border: 1px solid white;
 }
 
 .header__search img {
@@ -92,10 +92,10 @@
 .header__login .login {
   width: 100px;
   height: 48px;
-  background-color: #faf9f6;
+  background-color: #5e4075;
   font-size: 16px;
   font-weight: 700;
-  color: #a18cd1;
+  color: #faf9fa;
   border-radius: 40px;
   border: none;
   /* padding: 10px 20px; */
@@ -107,7 +107,6 @@
 
 .header__login .subscribe:hover {
   transform: scale(1.04);
-  color: #a18cd1;
   cursor: pointer;
 }
 
@@ -127,8 +126,8 @@
   padding-top: 16px;
   margin: 10px;
   border-radius: 10px;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  box-shadow: 2px 2px 12px #b490ca;
+  background-color: #262424;
+  box-shadow: 2px 2px 12px #5e4075;
 }
 
 .playlist {
@@ -141,7 +140,7 @@
   font-weight: bold;
   margin-bottom: 48px;
 }
- 
+
 .playlist .greeting-subtitle {
   color: #faf9f6;
   font-size: 24px;
@@ -182,7 +181,7 @@
   /* CÓDIGO COM JS CALCULANDO OS CARDS POR COLUNA */
   display: grid;
   gap: 16px;
-  grid-gap: 32px 
+  grid-gap: 32px;
   margin: 0 auto;
 }
 
@@ -294,19 +293,19 @@
 }
 
 .artist-card {
-  background: #a18cd1;
+  background: #3b3c36;
   border-radius: 8px;
   -ms-flex: 1;
   flex: 1;
   isolation: isolate;
   padding: 16px;
   position: relative;
-  transition:  03s ease;
+  transition: 03s ease;
   width: 100%;
 }
 
 .artist-card:hover {
-  background-color: #b490ca;
+  background-color: #5e4075;
 }
 
 .card-img {
@@ -364,12 +363,12 @@
   right: 10px;
   top: 120px;
   padding: 18px;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(to top, #3a2c39 0%, #262424 100%);
   border-radius: 100%;
   font-size: 14px;
   opacity: 0;
   transition: all ease 0.4s;
-  color:#faf9f6;
+  color: #faf9f6;
 }
 
 .artist-card:hover .play .fa-play {

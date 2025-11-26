@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-color: #312f2c;
   height: 100vh;
   font-family: var(--font-dm-sans);
 }
@@ -14,7 +14,7 @@ body {
 }
 
 .sidebar__navigation {
-  background-color: #a18cd1;
+  background-color: #3b3c36;
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .library {
-  background-color: #a18cd1;
+  background-color: #3b3c36;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
@@ -97,7 +97,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
-  background-color: #b490ca;
+  background-color: #262424;
   color: #faf9f6;
   font-weight: 600;
   font-size: 14px;
@@ -128,7 +128,7 @@ body {
 .section-playlist__content .section-playlist__button {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-color: #5e4075;
   color: #faf9f6;
   border-radius: 20px;
   font-size: 12px;
@@ -143,7 +143,7 @@ body {
 
 .section-playlist__content .section-playlist__button:hover {
   background: #faf9f6;
-  color: #b490ca;
+  color: #262424;
 }
 
 .sidebar .cookies {
@@ -179,7 +179,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: linear-gradient(to bottom, #5ee7df 0%, #b490ca 100%);
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
@@ -205,8 +205,8 @@ body {
 }
 
 .disclaimer-premium button {
-  background-color: #faf9f6;
-  color: #a18cd1;
+  background-color: #5e4075;
+  color: #faf9f6;
   font-size: 16px;
   font-weight: bold;
   padding: 10px 20px;
